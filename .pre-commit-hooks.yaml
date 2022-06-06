@@ -8,4 +8,4 @@
   entry: trunk.io
   description: runs trunk.io (and you should too)
   types_or: [asm, bash, c, c++, dockerfile, header, json, makefile, manifest, markdown, powershell, python, python3, yaml]
-  language: javascript
+  language: node
