@@ -1,0 +1,19 @@
+{
+	"name": "trunkio-precommit-hook",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/Mark-Gutenberger/trunkio-precommit-hook.git",
+	"author": "mark gutenberger <mark-gutenberger@outlook.com>",
+	"license": "MIT",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"trunkio",
+		"precommit",
+		"hook"
+	],
+	"bin": {
+		"trunk.io": "./trunk.sh"
+	}
+}
