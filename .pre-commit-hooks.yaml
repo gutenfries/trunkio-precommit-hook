@@ -5,7 +5,7 @@
 
 - id: trunk.io
   name: trunk.io
-  entry: trunkio-precommit-hook fmt
+  entry: trunk fmt
   description: runs trunk.io (and you should too)
   types_or:
       [
