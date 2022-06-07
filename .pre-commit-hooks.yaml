@@ -5,7 +5,23 @@
 
 - id: trunk.io
   name: trunk.io
-  entry: trunk fmt
+  entry: trunkio-precommit-hook fmt
   description: runs trunk.io (and you should too)
-  types_or: [asm, bash, c, c++, dockerfile, header, json, makefile, manifest, markdown, powershell, python, python3, yaml]
+  types_or:
+      [
+          asm,
+          bash,
+          c,
+          c++,
+          dockerfile,
+          header,
+          json,
+          makefile,
+          manifest,
+          markdown,
+          powershell,
+          python,
+          python3,
+          yaml,
+      ]
   language: node
