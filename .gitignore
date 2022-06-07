@@ -8,7 +8,7 @@ package-lock.json
 !.gitkeep
 !*.gitkeep
 !**/*.gitkeep
-
+!dist/
 *.sln
 *.vcxproj
 *.vcxproj.filters
@@ -125,7 +125,7 @@ web_modules/
 out
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -497,7 +497,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 develop-eggs/
-dist/
+# dist/
 downloads/
 eggs/
 .eggs/
