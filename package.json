@@ -6,7 +6,7 @@
 	"author": "mark gutenberger <mark-gutenberger@outlook.com>",
 	"license": "MIT",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "ts-node ./src/index.ts"
 	},
 	"keywords": [
 		"trunkio",
@@ -14,6 +14,18 @@
 		"hook"
 	],
 	"bin": {
-		"trunk": "./trunk.sh"
-	}
+		"trunk": "./dist/bin/index.js"
+	},
+	"dependencies": {
+		"@trunkio/launcher": "^1.1.1",
+		"@types/node": "^17.0.40",
+		"@types/yargs": "^17.0.10",
+		"chalk": "4",
+		"ts-node": "^10.8.1",
+		"typescript": "^4.7.3",
+		"yargs": "^17.5.1"
+	},
+	"OS": [
+		"!win32"
+	]
 }
