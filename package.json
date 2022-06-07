@@ -1,6 +1,6 @@
 {
 	"name": "trunkio-precommit-hook",
-	"version": "1.1.6",
+	"version": "1.1.7",
 	"repository": "https://github.com/Mark-Gutenberger/trunkio-precommit-hook.git",
 	"author": "mark gutenberger <mark-gutenberger@outlook.com>",
 	"license": "MIT",

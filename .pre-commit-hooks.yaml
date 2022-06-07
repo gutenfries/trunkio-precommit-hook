@@ -3,8 +3,8 @@
 # which hooks are provided by this repo
 # for use by other git repos.
 
-- id: trunk.io
-  name: trunk.io
+- id: trunks
+  name: trunk
   entry: trunk fmt
   description: runs trunk.io (and you should too)
   types_or:
