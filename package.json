@@ -1,6 +1,6 @@
 {
 	"name": "trunkio-precommit-hook",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"main": "index.js",
 	"repository": "https://github.com/Mark-Gutenberger/trunkio-precommit-hook.git",
 	"author": "mark gutenberger <mark-gutenberger@outlook.com>",
@@ -14,16 +14,10 @@
 		"hook"
 	],
 	"bin": {
-		"trunk": "./dist/bin/index.js"
+		"trunk": "./node_modules/.bin/trunk"
 	},
 	"dependencies": {
-		"@trunkio/launcher": "^1.1.1",
-		"@types/node": "^17.0.40",
-		"@types/yargs": "^17.0.10",
-		"chalk": "4",
-		"ts-node": "^10.8.1",
-		"typescript": "^4.7.3",
-		"yargs": "^17.5.1"
+		"@trunkio/launcher": "^1.1.1"
 	},
 	"OS": [
 		"!win32"
